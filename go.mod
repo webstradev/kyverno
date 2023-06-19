@@ -20,8 +20,8 @@ require (
 	github.com/go-logr/logr v1.2.4
 	github.com/go-logr/zapr v1.2.4
 	github.com/google/gnostic v0.6.9
-	github.com/google/go-containerregistry v0.14.1-0.20230425172351-b7c6e9dc3944
-	github.com/google/go-containerregistry/pkg/authn/kubernetes v0.0.0-20230403180904-b8d1c0a1df12
+	github.com/google/go-containerregistry v0.11.0
+	github.com/google/go-containerregistry/pkg/authn/kubernetes v0.0.0-20220301182634-bfe2ffc6b6bd
 	github.com/in-toto/in-toto-golang v0.6.0
 	github.com/jmespath/go-jmespath v0.4.0
 	github.com/jmoiron/jsonq v0.0.0-20150511023944-e874b168d07e
@@ -29,18 +29,18 @@ require (
 	github.com/kataras/tablewriter v0.0.0-20180708051242-e063d29b7c23
 	github.com/lensesio/tableprinter v0.0.0-20201125135848-89e81fc956e7
 	github.com/notaryproject/notation-core-go v1.0.0-rc.4
-	github.com/notaryproject/notation-go v1.0.0-rc.3
+	github.com/notaryproject/notation-go v1.0.0-rc.6
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.27.8
 	github.com/opencontainers/go-digest v1.0.0
-	github.com/opencontainers/image-spec v1.1.0-rc2
+	github.com/opencontainers/image-spec v1.1.0-rc.3
 	github.com/orcaman/concurrent-map/v2 v2.0.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.16.0
 	github.com/robfig/cron v1.2.0
 	github.com/sigstore/cosign v1.13.1
-	github.com/sigstore/k8s-manifest-sigstore v0.4.4
-	github.com/sigstore/sigstore v1.5.2
+	github.com/sigstore/k8s-manifest-sigstore v0.4.3
+	github.com/sigstore/sigstore v1.4.4
 	github.com/spf13/cobra v1.7.0
 	github.com/stretchr/testify v1.8.4
 	github.com/zach-klippenstein/goregen v0.0.0-20160303162051-795b5e3961ea
@@ -253,7 +253,7 @@ require (
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/oliveagle/jsonpath v0.0.0-20180606110733-2e52cf6e6852 // indirect
 	github.com/open-policy-agent/gatekeeper v0.0.0-20210824170141-dd97b8a7e966 // indirect
-	github.com/open-policy-agent/opa v0.51.0 // indirect
+	github.com/open-policy-agent/opa v0.47.4 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.7 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
@@ -272,7 +272,7 @@ require (
 	github.com/segmentio/ksuid v1.0.4 // indirect
 	github.com/sergi/go-diff v1.3.1 // indirect
 	github.com/shibumi/go-pathspec v1.3.0 // indirect
-	github.com/sigstore/fulcio v1.1.0 // indirect
+	github.com/sigstore/fulcio v1.0.0 // indirect
 	github.com/sigstore/rekor v1.0.1 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/skeema/knownhosts v1.1.1 // indirect
@@ -286,7 +286,7 @@ require (
 	github.com/subosito/gotenv v1.4.2 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d // indirect
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
-	github.com/tektoncd/chains v0.15.0 // indirect
+	github.com/tektoncd/chains v0.13.0 // indirect
 	github.com/tent/canonical-json-go v0.0.0-20130607151641-96e4ba3a7613 // indirect
 	github.com/thales-e-security/pool v0.0.2 // indirect
 	github.com/theupdateframework/go-tuf v0.5.2 // indirect
@@ -329,7 +329,7 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	k8s.io/component-base v0.27.3 // indirect
 	k8s.io/kubectl v0.26.3 // indirect
-	oras.land/oras-go/v2 v2.1.0 // indirect
+	oras.land/oras-go/v2 v2.2.0 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/release-utils v0.7.3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
