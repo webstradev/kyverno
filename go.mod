@@ -20,7 +20,7 @@ require (
 	github.com/go-logr/logr v1.2.4
 	github.com/go-logr/zapr v1.2.4
 	github.com/google/gnostic v0.6.9
-	github.com/google/go-containerregistry v0.14.1-0.20230425172351-b7c6e9dc3944
+	github.com/google/go-containerregistry v0.15.2
 	github.com/google/go-containerregistry/pkg/authn/kubernetes v0.0.0-20230403180904-b8d1c0a1df12
 	github.com/in-toto/in-toto-golang v0.6.0
 	github.com/jmespath/go-jmespath v0.4.0
@@ -33,7 +33,7 @@ require (
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.27.8
 	github.com/opencontainers/go-digest v1.0.0
-	github.com/opencontainers/image-spec v1.1.0-rc2
+	github.com/opencontainers/image-spec v1.1.0-rc3
 	github.com/orcaman/concurrent-map/v2 v2.0.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.16.0
@@ -156,9 +156,9 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dimchansky/utfbom v1.1.1 // indirect
 	github.com/djherbis/times v1.5.0 // indirect
-	github.com/docker/cli v23.0.4+incompatible // indirect
+	github.com/docker/cli v23.0.5+incompatible // indirect
 	github.com/docker/distribution v2.8.2+incompatible // indirect
-	github.com/docker/docker v23.0.4+incompatible // indirect
+	github.com/docker/docker v23.0.5+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.7.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.10.2 // indirect
